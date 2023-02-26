@@ -13,4 +13,10 @@ body {
   .bg-green {
     @apply text-[#12b488];
   }
+  .card {
+    @apply p-3 rounded-md bg-white shadow-md h-full;
+  }
+  .thumb {
+    @apply p-2.5 shadow-md rounded flex w-full mr-auto h-64;
+  }
 }
